@@ -12,10 +12,11 @@
         margin-top: 24px;
         cursor: pointer;
         display: flex;
+        position: absolute;
     }
-    .webstudio a {
+    .connect-1 {
         margin-top: 25.5px;
-        margin-left: 16px;
+        margin-left: 1px;
     }
     body .mainpage  {
         width: 100%;
