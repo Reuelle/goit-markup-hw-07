@@ -1,9 +1,22 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 428px) {
+    
+    body {
+        width: 428px;
+        height: 4929px;
+    }
+    body .mainpage  {
+        width: 428px;
+        height: 432px;
+        flex-shrink: 0;
+        flex: 30%;
+        max-width: 30%;
+    }
     body .goal {
       flex-direction: column;
       display: flex;
 width: 396px;
+height: 626px;
 flex-direction: column;
 align-items: flex-start;
 gap: 8px;
@@ -18,9 +31,14 @@ margin-right: 18px;
     body .image {
         display: none;
     }
+    body .team .wa {
+        margin-left: 133px;
+        margin-top: 192px;
+    }
     body .team {
         flex-direction: column;
         width: 264px;
+        height: 2235px;
         display: flex;
 width: 264px;
 padding-bottom: 0px;
@@ -29,6 +47,10 @@ justify-content: center;
 align-items: center;
 gap: 32px;
 background-color: tomato;
+    }
+    body .team .resto {
+        margin-left: 82px;
+        margin-top: 72px;
     }
   }
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
