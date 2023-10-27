@@ -1,8 +1,21 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 428px) {
     body .headlist {
+        flex-shrink: 0;
         width: 428px;
         height: 70px;
+        background-image: url("../images/charm_menu-hamburger.svg");
+        background-size: 32px 22px;
+        background-repeat: no-repeat;
+        background-position: 24px 16px 24px 380px;
+        box-sizing: border-box;
+        margin-left: 380px;
+        margin-top: 24px;
+        cursor: pointer;
+    }
+    a[title="studio"] {
+        margin-top: 25.5px;
+        margin-left: 16px;
     }
     body .mainpage  {
         width: 100%;
