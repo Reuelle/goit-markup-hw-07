@@ -14,12 +14,13 @@
         display: flex;
         position: absolute;
     }
-    .connect-1 {
+    a[title="studio"] {
         margin-top: 25.5px;
-        margin-left: 1px;
+        margin-left: 30%;
+        padding-left: 30%;
     }
-    body .mainpage  {
-        width: 100%;
+    body .mainpage, h1, button  {
+        width: 30%;
         flex: 100%;
     }
     body .goal {
