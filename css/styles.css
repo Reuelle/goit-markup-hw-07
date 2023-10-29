@@ -34,6 +34,16 @@
     .mainpage button {
         width: auto;
         flex: 30%;
+=======
+    a[title="studio"] {
+        margin-top: 25.5px;
+        margin-left: 30%;
+        padding-left: 30%;
+    }
+    body .mainpage, h1, button  {
+        width: 30%;
+        flex: 100%;
+>>>>>>> 59829f0cdfe3536bfc039cbbaf232b98f6cc4666
     }
     body .goal {
       flex-direction: column;
