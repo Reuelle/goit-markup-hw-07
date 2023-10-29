@@ -1,30 +1,43 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 428px) {
-    body .headlist {
-        flex-shrink: 0;
+    body {
         width: 428px;
-        height: 70px;
-        background-image: url("../images/charm_menu-hamburger.svg");
-        background-size: 32px 22px;
-        background-repeat: no-repeat;
-        box-sizing: border-box;
-        margin-left: 380px;
-        margin-top: 24px;
-        cursor: pointer;
-        display: flex;
-        position: absolute;
+        height: auto;
+        flex-direction: column;
     }
-    .connect-1 {
-        margin-top: 25.5px;
-        margin-left: 1px;
+    body > header .headlist {
+        height: 70px;
+        width: 428px;
+        display: block;
+        box-sizing: content-box;
+        padding: 0;
+    }
+    .webstudio a  {
+        box-sizing: border-box;
+        margin-right: 497px;
+        display: block;
+        margin-bottom: 25px;
+
+    }
+    .contact li a {
+        display: none;
     }
     body .mainpage  {
-        width: 100%;
-        flex: 100%;
+        width: 30%;
+        height: auto;
+        flex: 30%;
+    }
+    h1 {
+        width: auto;
+        flex: 30%;
+    }
+    .mainpage button {
+        width: auto;
+        flex: 30%;
     }
     body .goal {
       flex-direction: column;
-      display: flex;
+      display: block;
 width: 396px;
 height: 626px;
 flex-direction: column;
@@ -40,7 +53,7 @@ margin-right: 18px;
     body .goal .strategy{
         margin-left: 18px;
         margin-top: 96px;
-        flex-direction: column;
+        flex-direction: block;
     }
     body .image {
         display: none;
@@ -55,7 +68,7 @@ margin-right: 18px;
         flex-direction: column;
         width: 264px;
         height: 2235px;
-        display: flex;
+        display: block;
 width: 264px;
 padding-bottom: 0px;
 flex-direction: column;
@@ -75,7 +88,7 @@ background: var(--CLOUD, #F4F4FD);
         margin-top: 96px;
         background-color: tomato;
     }
-  }
+}
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (min-width: 600px) {
     . .goal, .image, .team, .customer {
@@ -115,6 +128,7 @@ a > span {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+
 .main {
 margin-top: 24px;
 }
