@@ -10,14 +10,14 @@
         width: 428px;
         display: flex;
     }
-    .hamburger {
+header .hamburger {
         width: 32px;
         height: 22px;
-        background-image: url("../images/charm_menu-hamburger.svg");
-        padding: 0;
+        background-image: url("./images/charm_menu-hamburger.svg");
+        background-repeat: no-repeat;
         background-color: tomato;
         background-size: contain;
-    
+        margin-left: 5px;
     }
     .headlist .webstudio a{
         width: 116px;
@@ -36,7 +36,7 @@
         position: relative;
         width:428px;
         height: 432px;
-        background: url("../images/Dark-bg7.jpg",no-repeat);
+        background: url("../images/Dark-bg7.jpg");
 flex-shrink: 0;
     }
      body .mainpage h1 {
