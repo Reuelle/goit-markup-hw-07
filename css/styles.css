@@ -5,18 +5,18 @@
         height: auto;
         flex-direction: column;
     }
-    body > header .headlist {
+    body > header {
         height: 70px;
         width: 428px;
         display: block;
-        box-sizing: content-box;
-        padding: 0;
     }
-    .webstudio a  {
-        box-sizing: border-box;
-        margin-right: 497px;
+    .headlist .webstudio a{
+        width: 116px;
         display: block;
-        margin-bottom: 25px;
+        padding: 0;
+        margin-left: 16px;
+        box-sizing: border-box;
+        background-color: tomato;
 
     }
     .contact li a {
@@ -126,6 +126,9 @@ overflow: hidden;
 }
 .headlist {
     display: flex;
+}
+.hamburger {
+    display: none;
 }
 a > span {
     color: var(--IRIS, #4D5AE5);
