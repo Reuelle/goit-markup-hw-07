@@ -1,5 +1,9 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 428px) {
+    body {
+
+    }
+
     body .headlist {
         flex-shrink: 0;
         width: 428px;
@@ -12,12 +16,13 @@
         margin-top: 24px;
         cursor: pointer;
         display: flex;
-        position: absolute;
     }
     a[title="studio"] {
         margin-top: 25.5px;
-        margin-left: 30%;
-        padding-left: 30%;
+        margin-left: 10%;
+        padding-left: 10%;
+        
+
     }
     body .mainpage, h1, button  {
         width: 30%;
@@ -47,8 +52,8 @@ margin-right: 18px;
         display: none;
     }
     body .team .wa h2 {
-        margin-left: 133px;
-        margin-top: 192px;
+        margin-left: 13px;
+        margin-top: 392px;
         background-color: tomato;
         display: block;
     }
@@ -57,9 +62,7 @@ margin-right: 18px;
         width: 264px;
         height: 2235px;
         display: flex;
-width: 264px;
 padding-bottom: 0px;
-flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 32px;
@@ -67,7 +70,7 @@ background: var(--CLOUD, #F4F4FD);
     }
     body .team .resto {
         margin-left: 82px;
-        margin-top: 72px;
+        margin-top: 252px;
     }
     body .customer-text {
         display: block;
