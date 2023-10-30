@@ -12,8 +12,9 @@
         height: 70px;
         width: 428px;
         display: flex;
+        padding: 0;
     }
-     header .hamburger {
+     header .container {
     display: block;
     position: relative;
     cursor: pointer;
@@ -22,7 +23,7 @@
     height: 22px;
     margin-left: 380px;
   }
-  .hamburger .bar {
+  .container .hamburger {
         width: 32px;
         height: 3px;
         margin: 6px 0;
