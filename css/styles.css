@@ -5,7 +5,7 @@
     }
 
     body .headlist {
-        width: 228px;
+        width: 208px;
         height: auto;
     }
     body > header {
@@ -16,17 +16,17 @@
     }
      header .container {
     display: block;
-    position: relative;
     cursor: pointer;
     background-color: tomato;
-    width: 32px;
-    height: 22px;
+    width: 35px;
+    height: 25px;
     margin-left: 380px;
+    box-sizing: border-box;
   }
   .container .hamburger {
         width: 32px;
-        height: 3px;
-        margin: 6px 0;
+        height: 22px;
+    
         color: black;
     }
     .headlist .webstudio a{
