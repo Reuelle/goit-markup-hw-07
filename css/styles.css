@@ -6,7 +6,7 @@
 
     body .headlist {
         flex-shrink: 0;
-        width: 428px;
+        width: 228px;
         height: auto;
     }
     body > header {
@@ -19,6 +19,9 @@
     position: relative;
     cursor: pointer;
     background-color: tomato;
+    width: 32px;
+    height: 22px;
+    margin-left: 380px;
   }
   .hamburger .bar {
         width: 32px;
