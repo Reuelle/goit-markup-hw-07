@@ -8,18 +8,23 @@
         flex-shrink: 0;
         width: 428px;
         height: auto;
-        flex-direction: column;
     }
     body > header {
         height: 70px;
         width: 428px;
         display: flex;
     }
- .headlist .hamburger {
+     .hamburger {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    background-color: tomato;
+  }
+  .hamburger .bar {
         width: 32px;
-        height: 22px;
-        background-color: tomato;
-        margin-left: 5px;
+        height: 3px;
+        margin: 6px 0;
+        color: black;
     }
     .headlist .webstudio a{
         width: 116px;
@@ -178,9 +183,6 @@ overflow: hidden;
 }
 .headlist {
     display: flex;
-}
-.hamburger {
-    display: none;
 }
 a > span {
     color: var(--IRIS, #4D5AE5);
