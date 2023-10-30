@@ -5,7 +5,6 @@
     }
 
     body .headlist {
-        flex-shrink: 0;
         width: 228px;
         height: auto;
     }
