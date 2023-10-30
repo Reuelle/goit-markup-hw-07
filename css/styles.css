@@ -13,7 +13,7 @@
         width: 428px;
         display: flex;
     }
-     .hamburger {
+     header .hamburger {
     display: block;
     position: relative;
     cursor: pointer;
