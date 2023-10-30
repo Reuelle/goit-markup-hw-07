@@ -7,15 +7,83 @@
     body .headlist {
         flex-shrink: 0;
         width: 428px;
+        height: auto;
+        flex-direction: column;
+    }
+    body > header {
         height: 70px;
-        background-image: url("../images/charm_menu-hamburger.svg");
-        background-size: 32px 22px;
-        background-repeat: no-repeat;
-        box-sizing: border-box;
-        margin-left: 380px;
-        margin-top: 24px;
-        cursor: pointer;
+        width: 428px;
         display: flex;
+    }
+ .headlist .hamburger {
+        width: 32px;
+        height: 22px;
+        background-color: tomato;
+        margin-left: 5px;
+    }
+    .headlist .webstudio a{
+        width: 116px;
+        display: block;
+        padding: 0;
+        margin-left: 16px;
+        box-sizing: border-box;
+    }
+    .headlist .main a {
+        display: none;
+    }
+    .contact li a {
+        display: none;
+    }
+    body .mainpage  {
+        position: relative;
+        width:428px;
+        height: 432px;
+        background: url("../images/Dark-bg7.jpg");
+flex-shrink: 0;
+    }
+     body .mainpage h1 {
+    color: var(--WHITE, #FFF);
+text-align: center;
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+        width: 320px;
+        height: 80px;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-top: 112px;
+        padding: 0;
+        margin-left: 44px;
+    }
+     body .mainpage button {
+        width: 169px;
+        height: 56px;
+        box-sizing: border-box;
+        display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin-left: 139px;
+    }
+    body .modal {
+        margin-left: 18px;
+        margin-top: 96px;
+    }
+    h1 {
+        width: auto;
+        flex: 30%;
+    }
+    .mainpage button {
+        width: auto;
+        flex: 30%;
     }
     a[title="studio"] {
         margin-top: 25.5px;
@@ -30,7 +98,7 @@
     }
     body .goal {
       flex-direction: column;
-      display: flex;
+      display: block;
 width: 396px;
 height: 626px;
 flex-direction: column;
@@ -46,7 +114,7 @@ margin-right: 18px;
     body .goal .strategy{
         margin-left: 18px;
         margin-top: 96px;
-        flex-direction: column;
+        flex-direction: block;
     }
     body .image {
         display: none;
@@ -62,6 +130,8 @@ margin-right: 18px;
         width: 264px;
         height: 2235px;
         display: flex;
+        display: block;
+width: 264px;
 padding-bottom: 0px;
 justify-content: center;
 align-items: center;
@@ -79,7 +149,7 @@ background: var(--CLOUD, #F4F4FD);
         margin-top: 96px;
         background-color: tomato;
     }
-  }
+}
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (min-width: 600px) {
     . .goal, .image, .team, .customer {
@@ -108,6 +178,9 @@ overflow: hidden;
 }
 .headlist {
     display: flex;
+}
+.hamburger {
+    display: none;
 }
 a > span {
     color: var(--IRIS, #4D5AE5);
@@ -523,7 +596,7 @@ align-items: center;
 background-repeat: no-repeat;
 background-position: center center;
 border: 1px solid grey;
-position: static;
+position: relative;
 }
  .overlay {
     width: 100%;
