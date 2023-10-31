@@ -149,12 +149,12 @@ overflow: hidden;
         margin-left: 82px;
         display: block;
     }
- .team .cup{
+ .resto .cup{
         box-sizing: border-box;
         margin-right: 82px;
         padding: 0;
     }
-    .team .name {
+    .resto .name {
         width: 134px;
         height: 24px;
         box-sizing: border-box;
@@ -162,7 +162,7 @@ overflow: hidden;
         margin-top: 32px;
         padding: 0;
     }
-    .team .position{
+    .resto .position{
         width: 128px;
         height: 24px;
         margin-left: 68px;
@@ -172,7 +172,7 @@ overflow: hidden;
         width: 232px;
         height: 40px;
         margin-top: 8px;
-        margin-left: 12px;
+        margin-left: 16px;
     }
     body .team .spoon {
         margin-top: 72px;
@@ -180,6 +180,35 @@ overflow: hidden;
         height: 428px;
         margin-left: 82px;
         display: block;
+    }
+    .spoon .name {
+        margin-left: 50px;
+    }
+    .spoon .position {
+        width: auto;
+        height: 24px;
+        margin-left: ;
+    }
+    body .team .fork {
+        margin-top: 72px;
+        width: 264px;
+        height: 428px;
+        margin-left: 82px;
+        display: block;
+    }
+    .fork .name {
+        margin-left: 45px;
+    }
+    body .team .plate {
+        margin-top: 72px;
+        width: 264px;
+        height: 428px;
+        margin-left: 82px;
+        display: block;
+        padding: 0;
+    }
+    .plate .name {
+        margin-left: 40px;
     }
     body customer-text {
         display: block;
