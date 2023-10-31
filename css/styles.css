@@ -47,6 +47,7 @@
         height: 432px;
         background: url("../images/Dark-bg7.jpg");
 flex-shrink: 0;
+background-position: center;
     }
      body .mainpage h1 {
     color: var(--WHITE, #FFF);
@@ -139,14 +140,16 @@ margin-right: 18px;
         display: block;
         padding: 0;
 background: var(--CLOUD, #F4F4FD);
+text-align: center;
+justify-content: center;
     }
     body .team .resto {
         margin-top: 208px;
         margin-right: 250px;
-        background-color: tomato;
         width: 264px;
         height: 428px;
         box-sizing: border-box;
+        text-align: center;
     }
     body .team .spoon {
         margin-left: 92px;
