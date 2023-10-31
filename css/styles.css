@@ -136,20 +136,20 @@ margin-right: 18px;
         margin-top: 96px;
         width: 428px;
         height: 2235px;
-        flex-direction: column;
         display: block;
         padding: 0;
 background: var(--CLOUD, #F4F4FD);
 text-align: center;
 justify-content: center;
     }
-    body .team .resto {
+.team .resto {
         margin-top: 208px;
         margin-right: 250px;
         width: 264px;
         height: 428px;
         box-sizing: border-box;
         text-align: center;
+        background-color: tomato;
     }
     body .team .spoon {
         margin-left: 92px;
