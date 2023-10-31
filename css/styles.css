@@ -149,21 +149,20 @@ margin-right: 18px;
         margin-top: 96px;
         display: block;
     }
-    }
     body .team {
         margin-top: 96px;
-        width: 100%;
+        width: 428px;
         height: 2235px;
         flex-direction: column;
-        display: block;
+        display: flex;
 padding-bottom: 0px;
-justify-content: center;
-align-items: center;
 background: var(--CLOUD, #F4F4FD);
     }
-    body .resto {
+    body .team .resto {
         margin-top: 208px;
-        display: block;
+        display: inline-flex;
+        margin-right: 308px;
+        background-color: tomato;
     }
     body .team .spoon {
         margin-left: 82px;
@@ -171,16 +170,16 @@ background: var(--CLOUD, #F4F4FD);
         display: block;
     }
     body .team .fork {
-        margin-left: 82px;
+        margin-left: 52px;
         margin-top: 72px;
         display: block;
     }
     body .team .plate {
-        margin-left: 82px;
+        margin-left: 52px;
         margin-top: 72px;
         display: block;
     }
-    body .customer-text {
+    body customer-text {
         display: block;
         flex-direction: column;
         margin-right: 10px;
