@@ -157,27 +157,31 @@ margin-right: 18px;
         display: flex;
 padding-bottom: 0px;
 background: var(--CLOUD, #F4F4FD);
+padding: 0;
     }
     body .team .resto {
         margin-top: 208px;
         display: inline-flex;
-        margin-right: 308px;
+        align-items: center;
+        justify-content: center;
         background-color: tomato;
+        padding: 0;
     }
     body .team .spoon {
-        margin-left: 82px;
+        margin-left: 92px;
         margin-top: 72px;
         display: block;
     }
     body .team .fork {
-        margin-left: 52px;
+        margin-left: 92px;
         margin-top: 72px;
         display: block;
     }
     body .team .plate {
-        margin-left: 52px;
+        margin-left: 92px;
         margin-top: 72px;
         display: block;
+        padding: 0;
     }
     body customer-text {
         display: block;
