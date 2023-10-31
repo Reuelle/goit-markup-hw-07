@@ -84,25 +84,6 @@ margin-left: 139px;
         margin-left: 18px;
         margin-top: 96px;
     }
-    h1 {
-        width: auto;
-        flex: 30%;
-    }
-    .mainpage button {
-        width: auto;
-        flex: 30%;
-    }
-    a[title="studio"] {
-        margin-top: 25.5px;
-        margin-left: 10%;
-        padding-left: 10%;
-        
-
-    }
-    body .mainpage, h1, button  {
-        width: 30%;
-        flex: 100%;
-    }
     body .goal {
       flex-direction: column;
       display: block;
@@ -150,27 +131,27 @@ margin-right: 18px;
         display: block;
     }
     body .team {
+        flex-direction: column;
         margin-top: 96px;
         width: 428px;
         height: 2235px;
         flex-direction: column;
-        display: flex;
-padding-bottom: 0px;
+        display: block;
+        padding: 0;
 background: var(--CLOUD, #F4F4FD);
-padding: 0;
     }
     body .team .resto {
         margin-top: 208px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
+        margin-right: 250px;
         background-color: tomato;
-        padding: 0;
+        width: 264px;
+        height: 428px;
+        box-sizing: border-box;
     }
     body .team .spoon {
         margin-left: 92px;
         margin-top: 72px;
-        display: block;
+        display:;
     }
     body .team .fork {
         margin-left: 92px;
