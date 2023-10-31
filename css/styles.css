@@ -136,7 +136,7 @@ margin-right: 18px;
         margin-top: 96px;
         width: 428px;
         height: 2235px;
-        display: block;
+        display: flex;
         padding: 0;
 background: var(--CLOUD, #F4F4FD);
 text-align: center;
@@ -144,19 +144,25 @@ justify-content: center;
     }
 .team .resto {
         margin-top: 208px;
-        margin-right: 250px;
         width: 264px;
         height: 428px;
         box-sizing: border-box;
         text-align: center;
         background-color: tomato;
+        display: block;
     }
-    body .team .spoon {
+ .team .spoon {
+        width: 264px;
+        height: 428px;
+        box-sizing: border-box;
+        text-align: center;
         margin-left: 92px;
         margin-top: 72px;
-        display:;
+        display: block;
     }
     body .team .fork {
+        width: 264px;
+        height: 428px;
         margin-left: 92px;
         margin-top: 72px;
         display: block;
