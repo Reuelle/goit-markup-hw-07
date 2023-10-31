@@ -131,48 +131,55 @@ margin-right: 18px;
         margin-top: 96px;
         display: block;
     }
-    body .team {
+     body .team {
         flex-direction: column;
         margin-top: 96px;
         width: 428px;
         height: 2235px;
-        display: flex;
         padding: 0;
 background: var(--CLOUD, #F4F4FD);
 text-align: center;
 justify-content: center;
+display: block;
+overflow: hidden;
     }
-body .team .resto {
-        margin-top: 208px;
+    body .team .resto {
         width: 264px;
         height: 428px;
+        margin-left: 82px;
+        display: block;
+    }
+ .team .cup{
         box-sizing: border-box;
-        text-align: center;
-        background-color: tomato;
-        display: block;
-        margin-right: 92px;
-    }
- body .team .spoon {
-        width: 264px;
-        height: 428px;
-        box-sizing: border-box;
-        text-align: center;
-        margin-left: 142px;
-        margin-top: 72px;
-        display: block;
-    }
-    body .team .fork {
-        width: 264px;
-        height: 428px;
-        margin-left: 92px;
-        margin-top: 72px;
-        display: block;
-    }
-    body .team .plate {
-        margin-left: 92px;
-        margin-top: 72px;
-        display: block;
+        margin-right: 82px;
         padding: 0;
+    }
+    .team .name {
+        width: 134px;
+        height: 24px;
+        box-sizing: border-box;
+        margin-left: 65px;
+        margin-top: 32px;
+        padding: 0;
+    }
+    .team .position{
+        width: 128px;
+        height: 24px;
+        margin-left: 68px;
+        margin-top: 8px;
+    }
+    .team .icon {
+        width: 232px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 12px;
+    }
+    body .team .spoon {
+        margin-top: 72px;
+        width: 264px;
+        height: 428px;
+        margin-left: 82px;
+        display: block;
     }
     body customer-text {
         display: block;
