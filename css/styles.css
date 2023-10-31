@@ -109,7 +109,7 @@ margin-left: 139px;
 width: 396px;
 height: 626px;
 flex-direction: column;
-align-items: flex-start;
+align-items: center;
 gap: 8px;
 margin-top: 72px;
 margin-left: 18px;
@@ -119,9 +119,27 @@ margin-right: 18px;
         display: none;
     }
     body .goal .strategy{
-        margin-left: 18px;
+        margin-left: 58px;
         margin-top: 96px;
         flex-direction: block;
+    }
+    body .goal .punctuality {
+        margin-left: 58px;
+        margin-top: 72px;
+        flex-direction: block;
+    }
+    body .goal .diligence {
+    margin-left: 58px;
+        margin-top: 72px;
+        flex-direction: block;
+    }
+    body .goal .Technology {
+        margin-left: 58px;
+            margin-top: 72px;
+            flex-direction: block;
+    }
+    body .goal h3 {
+        text-align: center;
     }
     body .image {
         display: none;
