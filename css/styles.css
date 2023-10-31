@@ -149,6 +149,7 @@ margin-right: 18px;
         margin-top: 96px;
         display: block;
     }
+    }
     body .team {
         margin-top: 96px;
         width: 100%;
@@ -158,12 +159,10 @@ margin-right: 18px;
 padding-bottom: 0px;
 justify-content: center;
 align-items: center;
-gap: 32px;
 background: var(--CLOUD, #F4F4FD);
     }
-    body .team .resto {
-        margin-left: 82px;
-        margin-top: 72px;
+    body .resto {
+        margin-top: 208px;
         display: block;
     }
     body .team .spoon {
