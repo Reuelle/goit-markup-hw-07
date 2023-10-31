@@ -142,7 +142,7 @@ background: var(--CLOUD, #F4F4FD);
 text-align: center;
 justify-content: center;
     }
-.team .resto {
+body .team .resto {
         margin-top: 208px;
         width: 264px;
         height: 428px;
@@ -150,13 +150,14 @@ justify-content: center;
         text-align: center;
         background-color: tomato;
         display: block;
+        margin-right: 92px;
     }
- .team .spoon {
+ body .team .spoon {
         width: 264px;
         height: 428px;
         box-sizing: border-box;
         text-align: center;
-        margin-left: 92px;
+        margin-left: 142px;
         margin-top: 72px;
         display: block;
     }
