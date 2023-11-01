@@ -213,12 +213,16 @@ overflow: hidden;
 body .customer {
         width: 396px;
         height: 4926px;
-        display: inline-block;
         background: #FFF;
-        flex-wrap: wrap;
-        padding: 0;
-        margin-left: 16px;
+        padding-left: 16px;
         flex-direction: column;
+        position: relative;
+        flex-direction: column;
+    }
+   body .customer .customer-icon {
+        display: inline-flex;
+        flex-wrap: wrap;
+        background-color: tomato;
     }
     .customer .customer-text {
         width: 197.469px;
@@ -226,32 +230,25 @@ body .customer {
         margin-top: 96px;
         margin-left: 99px;
     }
-.customer .customer-icon {
-        width: 396px;
-        height: 408px;
-        display: inline-flex;
-        padding: 0;
-        flex-wrap: wrap;
-        box-sizing: border-box;
-        background-color: tomato;
-    }
  .customer-icon .logo-1{
+    width: 100%;
+    height: auto;
         margin-left: 0;
         margin-top: 72px;
+        display: block;
+        background-color: yellow;
     }
- .customer-icon .logo-2{
+ .customer- img{
     margin-left: 16px;
     margin-top: 72px;
 }
- .customer-icon .logo-3{
+ .customer img{
     margin-left: 0;
     margin-top: 72px;
-    padding: 0;
 }
-.customer-icon .logo-4{
+.customer .customer-icon .logo-4{
     margin-left: 16px;
     margin-top: 72px;
-    padding: 0;
 }
 }
 
