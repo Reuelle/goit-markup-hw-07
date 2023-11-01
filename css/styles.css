@@ -212,7 +212,7 @@ overflow: hidden;
     }
 body .customer {
         width: 396px;
-        height: 4926px;
+        height: 766px;
         background: #FFF;
         padding-left: 16px;
         flex-direction: column;
@@ -221,7 +221,7 @@ body .customer {
     }
    body .customer .customer-icon {
         width: 396px;
-        height: 409px;
+        height: 460px;
         display: inline-flex;
         flex-wrap: wrap;
         margin-left: 0;
@@ -235,7 +235,7 @@ body .customer {
  .customer-icon .logo-1{
     width: 100%;
     height: auto;
-        margin-left: 0;
+        margin-left:0;
         margin-top: 0;
         display: block;
     }
@@ -253,6 +253,13 @@ body .customer {
         margin-top: 72px;
         display: block;
 }
+.customer-icon .logo-4{
+    width: 100%;
+    height: auto;
+        margin-left: 16px;
+        margin-top: 72px;
+        display: block;
+}
 .customer-icon .logo-5{
     width: 100%;
     height: auto;
@@ -267,9 +274,9 @@ body .customer {
         margin-top: 72px;
         display: block;
 }
-.customer .customer-icon .logo-4{
-    margin-left: 16px;
-    margin-top: 72px;
+body footer {
+    width: 428px;
+    height: 884px;
 }
 }
 
