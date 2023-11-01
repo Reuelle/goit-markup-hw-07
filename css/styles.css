@@ -212,7 +212,7 @@ overflow: hidden;
     }
 body .customer {
         width: 396px;
-        height: 766px;
+        height: 668px;
         background: #FFF;
         padding-left: 16px;
         flex-direction: column;
@@ -277,6 +277,32 @@ body .customer {
 body footer {
     width: 428px;
     height: 884px;
+    margin-top: 96px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+body footer .customer-icon a {
+    width: 105px;
+    height: auto;
+    margin-left: 170px;
+    margin-top: 67px;
+    display: block;
+    position: absolute;
+}
+ footer .container-icon p {
+    width: 288px;
+    height: 73px;
+    margin-top: 136px;
+    margin-left: 80px;
+    display: block;
+    padding: 0;
+    position: absolute;
+}
+footer .container-footer .social {
+    width: 96px;
+    height: 24px;
+    display: block;
 }
 }
 
