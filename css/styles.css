@@ -321,25 +321,23 @@ body footer .customer-icon a {
 }
 body .container-icon .footer-icon {
     width: 208px;
-    height: 248px;
+    height: 40px;
     position: relative;
     margin-top: 320px;
     display: flex;
     box-sizing: content-box;
-    margin-left: 0;
-    padding-left: 110px;
-    border: 3px solid whitesmoke;
+    margin-left: 110px;
+    padding: 0;
 }
-.container-icon form[id="email1"] {
+body footer .email {
     width: 398px;
-    height: 96px;
+    height: 40px;
     margin-top: 112px;
     margin-left: 15px;
     position: absolute;
-    display: flex;
+    display: block;
     box-sizing: border-box;
     padding: 0;
-    border: 2px solid yellow;
 }
 body .container-icon .subscribed-button {
     margin-top: 24px;
