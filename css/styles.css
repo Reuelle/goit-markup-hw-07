@@ -299,10 +299,31 @@ body footer .customer-icon a {
     padding: 0;
     position: absolute;
 }
-footer .container-footer .social {
-    width: 96px;
-    height: 24px;
-    display: block;
+ .container-footer .social {
+    width: 100px;
+    height: 27px;
+    display: inline;
+    margin-top: 280px;
+    margin-left: 166px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.container-footer .subscribe {
+    width: 100px;
+    height: 27px;
+    display: inline;
+    margin-top: 432px;
+    margin-left: 176px;
+    box-sizing: border-box;
+    position: absolute;
+}
+body .container-icon .footer-icon {
+    width: 208px;
+    position: absolute;
+    margin-top: 320px;
+    display: inline;
+    gap: 16px;
+    box-sizing: border-box;
 }
 }
 
