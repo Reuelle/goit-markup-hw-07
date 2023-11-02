@@ -100,33 +100,35 @@ justify-content: center;
         display: none;
     }
     body .goal .strategy{
-        margin-left: 58px;
+        margin-left: 22px;
         margin-top: 96px;
         flex-direction: block;
     }
     body .goal .punctuality {
-        margin-left: 58px;
         margin-top: 72px;
         flex-direction: block;
     }
     body .goal .diligence {
-    margin-left: 58px;
         margin-top: 72px;
         flex-direction: block;
     }
     body .goal .Technology {
-        margin-left: 58px;
             margin-top: 72px;
             flex-direction: block;
     }
     body .goal p {
         width: 396px;
         height: auto;
-        margin-left: 0;
+        margin-left: 16px;
         margin-top: 8px;
+        display: block;
     }
     body .goal h3 {
+        width: 396px;
+        height: auto;
+        margin-left: 0;
         text-align: center;
+        margin-left: 16px;
     }
     body .image {
         display: none;
