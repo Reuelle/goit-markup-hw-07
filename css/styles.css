@@ -326,13 +326,13 @@ body .container-icon .footer-icon {
     display: inline;
     box-sizing: border-box;
 }
- body footer.email {
+ body footer.container-icon .email {
     width: auto;
     height: 40px;
     margin-top: 112px;
     margin-left: 0;
     position: absolute;
-    display: inline-block;
+    display: block;
     background-color: tomato;
 }
 body .container-icon .subscribed-button {
