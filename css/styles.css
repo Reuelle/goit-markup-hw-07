@@ -282,6 +282,7 @@ body footer {
     position: relative;
     flex-direction: column;
     padding: 0;
+    box-sizing: border-box;
 }
 body footer .customer-icon a {
     width: 105px;
@@ -323,23 +324,20 @@ body .container-icon .footer-icon {
     position: absolute;
     margin-top: 320px;
     display: inline;
-    gap: 16px;
     box-sizing: border-box;
-    display: block;
 }
-  body footer .container-icon form[id="email1"] {
+ body .email {
     width: auto;
     height: 40px;
     margin-top: 112px;
     margin-left: 0;
-    position: relative;
-    display: block;
-    padding: 0;
+    position: absolute;
+    display: inline-block;
     background-color: tomato;
 }
 body .container-icon .subscribed-button {
     margin-top: 24px;
-    margin-left: 0;
+    margin-left: 10px;
     padding: 0;
 }
 }
