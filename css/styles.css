@@ -281,6 +281,7 @@ body footer {
     display: flex;
     position: relative;
     flex-direction: column;
+    padding: 0;
 }
 body footer .customer-icon a {
     width: 105px;
@@ -326,13 +327,15 @@ body .container-icon .footer-icon {
     box-sizing: border-box;
     display: block;
 }
- body footer .container-icon .email1 {
-    width: 398px;
+  body footer .container-icon form[id="email1"] {
+    width: auto;
+    height: 40px;
     margin-top: 112px;
     margin-left: 0;
-    position: absolute;
+    position: relative;
     display: block;
     padding: 0;
+    background-color: tomato;
 }
 body .container-icon .subscribed-button {
     margin-top: 24px;
