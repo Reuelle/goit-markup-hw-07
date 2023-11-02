@@ -326,7 +326,7 @@ body .container-icon .footer-icon {
     display: inline;
     box-sizing: border-box;
 }
- body .email {
+ body footer.email {
     width: auto;
     height: 40px;
     margin-top: 112px;
