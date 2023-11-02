@@ -326,14 +326,16 @@ body .container-icon .footer-icon {
     display: inline;
     box-sizing: border-box;
 }
- body footer.container-icon .email {
-    width: auto;
-    height: 40px;
+.container-icon form[id="email1"] {
+    width: 398px;
+    height: 96px;
     margin-top: 112px;
-    margin-left: 0;
+    margin-left: 0px;
     position: absolute;
     display: block;
-    background-color: tomato;
+    box-sizing: border-box;
+    padding: 0;
+    border: 2px solid yellow;
 }
 body .container-icon .subscribed-button {
     margin-top: 24px;
