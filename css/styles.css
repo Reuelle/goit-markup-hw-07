@@ -94,8 +94,7 @@ flex-direction: column;
 align-items: center;
 gap: 8px;
 margin-top: 72px;
-margin-left: 18px;
-margin-right: 18px;
+justify-content: center;
     }
     body .antenna-box, .clock-box, .diagram-box, .astronaut-box {
         display: none;
@@ -119,6 +118,12 @@ margin-right: 18px;
         margin-left: 58px;
             margin-top: 72px;
             flex-direction: block;
+    }
+    body .goal p {
+        width: 396px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 8px;
     }
     body .goal h3 {
         text-align: center;
@@ -332,7 +337,7 @@ body .container-icon .footer-icon {
 body footer .email {
     width: 398px;
     height: 40px;
-    margin-top: 112px;
+    margin-top: 472px;
     margin-left: 15px;
     position: absolute;
     display: block;
@@ -341,8 +346,9 @@ body footer .email {
 }
 body .container-icon .subscribed-button {
     margin-top: 24px;
-    margin-left: 10px;
+    margin-left: 8px;
     padding: 0;
+    display: block;
 }
 }
 
