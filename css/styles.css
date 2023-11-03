@@ -35,12 +35,17 @@
         margin-left: 16px;
         box-sizing: border-box;
     }
-    .mobile-headlist {
+     header  .webpage mobile-menu {
         width: 428px;
         height: 798px;
         flex-shrink: 0;
         background: var(--WHITE, #FFF);
+        flex-direction: column;
+        display: flex;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    }
+    .webpage .close-button {
+        display: none;
     }
     .headlist .main a {
         display: none;
@@ -1334,7 +1339,7 @@ letter-spacing: 0.32px;
         flex-shrink: 0;
         margin-left: 156px;
         box-sizing: border-box;
-        margin-top: 14px;
+        margin-top: 28px;
     }
     .container-icon > .footer-icon {
         width: 208px;

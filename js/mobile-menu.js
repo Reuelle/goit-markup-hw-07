@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
         nav.classList.remove('mobile-menu');
     });
 });
+
