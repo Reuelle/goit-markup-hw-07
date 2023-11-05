@@ -47,11 +47,47 @@
         flex-direction: column;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     }
-        /* Add other styles for displaying the mobile menu */
-    .headlist .main a {
-        display: none;
+    /* Hide the headlist when the mobile menu is shown */
+.menu .contact {
+    color: var(--OCEAN, #404BBF);
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+margin-left: 40px;
+}
+.menu .connect-1 {
+    text-decoration: none;
+    margin-top: 80px;
+}
+.menu .connect-2 {
+    text-decoration: none;
+    margin-top: 40px;
+}
+    .close-button {
+        width: 24px;
+        height: 24px;
+        box-sizing: content-box;
+        fill: var(--CORNFLOWER, #E7E9FC);
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.10);
+    margin-left: 360px;
+    margin-top: 24px;
+    border-radius: 4px;
+    border: none;
     }
-    .contact li a {
+    .mobile-close {
+        width: 8px;
+        color: #2E2F42;
+        flex-shrink: 0;
+        margin-bottom: 3px;
+        cursor: pointer;
+    }
+    .headlist .main a {
         display: none;
     }
     body .mainpage  {
@@ -406,6 +442,8 @@ a > span {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.menu {
+    display: none;}
 .main {
 margin-top: 24px;
 }
