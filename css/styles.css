@@ -63,10 +63,13 @@ margin-left: 40px;
 .menu .connect-1 {
     text-decoration: none;
     margin-top: 80px;
+    list-style-type: none;
 }
 .menu .connect-2 {
     text-decoration: none;
     margin-top: 40px;
+    list-style: none;
+    l
 }
     .close-button {
         width: 24px;
