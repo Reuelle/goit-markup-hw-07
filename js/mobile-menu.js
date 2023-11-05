@@ -1,13 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.getElementById('hamburger');
-    const nav = document.querySelector('.webpage');
     const closeButton = document.getElementById('closeButton');
+    const mobileMenu = document.querySelector('.webpage');
 
+    // Toggle mobile menu when hamburger is clicked
     hamburger.addEventListener('click', function() {
-        nav.classList.toggle('mobile-menu');
+        mobileMenu.classList.add('show-mobile-menu');
     });
 
+    // Close mobile menu when close button is clicked
     closeButton.addEventListener('click', function() {
-        nav.classList.remove('mobile-menu');
+        mobileMenu.classList.remove('show-mobile-menu');
     });
 });
