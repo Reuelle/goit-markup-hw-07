@@ -35,21 +35,19 @@
         margin-left: 16px;
         box-sizing: border-box;
     }
-    .mobile-menu {
-        display:none;
-      }
-      .mobile-menu.show-mobile-menu {
+      .menu.show-mobile-menu {
+        position: absolute;
         display: block;
         width: 428px;
-        height: 798px;
+        height: 998px;
         flex-shrink: 0;
         background: var(--WHITE, #FFF);
         flex-direction: column;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    }
+}
+
         /* Add other styles for displaying the mobile menu */
-    }
-    .mobile-menu .close-button {
+    .menu .close-button {
         display:none;
     }
     .headlist .main a {
