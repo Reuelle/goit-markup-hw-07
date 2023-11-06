@@ -48,7 +48,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
         /* Add other styles for displaying the mobile menu */
     /* Hide the headlist when the mobile menu is shown */
-.menu .contact a{
+.menu li a{
     color: var(--OCEAN, #404BBF);
 /* Header 2 */
 font-family: Roboto;
@@ -69,34 +69,28 @@ text-decoration: none;
     margin-top: 80px;
     width: 110px;
     height: 40px;
+    display: block;
 }
 .menu .connect-2 {
     margin-top: 40px;
     width: 150px;
     height: 40px;
+    display: block;
 }
 .menu .connect-3 {
     margin-top: 40px;
     width: 152px;
     height: 40px;
+    display: block;
 }
-.menu .contact-info a {
-    color: var(--IRIS, #4D5AE5);
-    display: flex;
-
-/* Header 2 */
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
-margin-left: 0;
-padding-left: 0;
-position: absolute;
+.menu .contact-info {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 284px;
 }
-.menu .contact-info{
+.menu .connect-4{
     box-sizing: border-box;
     position: absolute;
     width: 355px;
