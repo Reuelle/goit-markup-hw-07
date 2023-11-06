@@ -92,12 +92,13 @@ text-decoration: none;
     margin-left: 40px;
     margin-top: 284px;
 }
-.mobile-menu .connect-4{
+.menu .contact-info .connect-4{
     width: 355px;
     height: 40px;
-    margin-left: 0;
-    padding: 0;
+    margin-left: 12px;
+    padding: 12px;
     margin-top: 84px;
+    background-color: tomato;
 }
 .menu .mobile-icon {
     background-color: gold;
