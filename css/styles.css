@@ -67,16 +67,35 @@ margin-left: 40px;
 list-style-type: none;
 text-decoration: none;
 }
-.menu > header {
-    display: none;
+.menu .contact li {
     list-style-type: none;
 }
+/* Initially hide the headlist */
+ .headlist{
+    display: block; /* Adjust this display property according to your design */
+}
+
+/* Hide the headlist when the mobile menu is shown */
+.menu.show-mobile-menu + .headlist {
+    display: none;
+}
+
 .menu .connect-1 {
     margin-top: 80px;
+    width: 110px;
+    height: 40px;
 }
 .menu .connect-2 {
     margin-top: 40px;
+    width: 150px;
+    height: 40px;
 }
+.menu .connect-3 {
+    margin-top: 40px;
+    width: 152px;
+    height: 40px;
+}
+
     .close-button {
         width: 24px;
         height: 24px;
