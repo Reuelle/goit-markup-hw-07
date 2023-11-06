@@ -35,8 +35,9 @@
         margin-left: 16px;
         box-sizing: border-box;
     }
-      .menu.show-mobile-menu {
-        position: absolute;
+      .webpage.show-mobile-menu {
+        display: block;;
+      }
     .menu {
         display:none;
       }
@@ -51,7 +52,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
         /* Add other styles for displaying the mobile menu */
-    .menu .close-button {
+.menu .close-button {
         display:none;
     }
     /* Hide the headlist when the mobile menu is shown */
