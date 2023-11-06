@@ -42,6 +42,7 @@
         display:none;
       }
       .menu.show-mobile-menu {
+        position: relative;
         display: block;
         width: 428px;
         height: 998px;
@@ -97,10 +98,14 @@ line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
-.menu .connect-4 {
-    margin-left: 40px;
+.menu  .target li {
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    margin-left: 0;
+    padding: 0;
     margin-top: 284px;
-    display: block;
+    display: flex;
     background-color: tomato;
 }
 
