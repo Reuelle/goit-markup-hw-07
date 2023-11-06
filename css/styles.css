@@ -96,7 +96,7 @@ margin-left: 0;
 padding-left: 0;
 position: absolute;
 }
-.menu .contact-info .information{
+.menu .contact-info{
     box-sizing: border-box;
     position: absolute;
     width: 355px;
@@ -107,11 +107,8 @@ position: absolute;
     display: block;
     background-color: tomato;
 }
- .contact-info .connect- {
-    position: absolute;
-    display: block;
-    background-color: yellow;
-    margin-left: 40px;
+.menu .mobile-icon {
+    background-color: gold;
 }
 
     .close-button {
