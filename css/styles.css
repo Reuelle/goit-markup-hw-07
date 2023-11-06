@@ -52,9 +52,6 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
         /* Add other styles for displaying the mobile menu */
-.menu .close-button {
-        display:none;
-    }
     /* Hide the headlist when the mobile menu is shown */
 .menu .contact {
     color: var(--OCEAN, #404BBF);
@@ -68,6 +65,9 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 margin-left: 40px;
 }
+.menu > header {
+    display: none;
+}
 .menu .connect-1 {
     text-decoration: none;
     margin-top: 80px;
@@ -77,7 +77,10 @@ margin-left: 40px;
     text-decoration: none;
     margin-top: 40px;
     list-style: none;
-    l
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+
 }
     .close-button {
         width: 24px;
