@@ -48,7 +48,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
         /* Add other styles for displaying the mobile menu */
     /* Hide the headlist when the mobile menu is shown */
-.menu li a{
+.menu .contact a{
     color: var(--OCEAN, #404BBF);
 /* Header 2 */
 font-family: Roboto;
@@ -85,25 +85,43 @@ text-decoration: none;
     height: 40px;
     display: block;
 }
-.menu .contact-info {
+.menu .contact-info ul{
     display: block;
     position: absolute;
-    box-sizing: border-box;
-    margin-left: 40px;
     margin-top: 284px;
+    margin-left: 40px;
 }
-.menu .contact-info .connect-4{
+.menu .connect-4{
     width: 355px;
     height: 40px;
-    margin-left: 12px;
-    padding: 12px;
     margin-top: 84px;
-    background-color: tomato;
+    color: var(--IRIS, #4D5AE5);
+
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+display: block;
+margin-left: 40px;
+}
+.menu .connect-5{
+    margin-top: 40px;
+    width: 355px;
+    height: 40px;
+    display: block;
 }
 .menu .mobile-icon {
-    background-color: gold;
+    display: flex;
+    width: 328px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 616px;
+    gap: 56px;
 }
-
     .close-button {
         width: 24px;
         height: 24px;
