@@ -45,6 +45,16 @@
         flex-direction: column;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
+/* Initially display the headlist */
+body {
+    display: block; /* Adjust this display property according to your design */
+}
+
+/* Hide the headlist when the mobile menu is shown */
+.menu.show-mobile-menu ~ body {
+    display: none;
+}
+
 
         /* Add other styles for displaying the mobile menu */
     /* Hide the headlist when the mobile menu is shown */
@@ -121,6 +131,9 @@ margin-left: 40px;
     margin-left: 40px;
     margin-top: 616px;
     gap: 56px;
+}
+.menu .mobile-icon img {
+    cursor: pointer;
 }
     .close-button {
         width: 24px;
