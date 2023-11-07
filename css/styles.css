@@ -512,23 +512,32 @@ body .container-icon .subscribed-button {
       .headlist .connect-1 {
         width: 48px;
         padding: 0;
-        margin-left: 0px;
         display: block;
         box-sizing: border-box;
     }
     .headlist .connect-2 {
         width: 48px;
         padding: 0;
-        margin-left: 40px;
         display: block;
         box-sizing: border-box;
     }
     .headlist .connect-3 {
         width: 48px;
         padding: 0;
-        margin-left: 40px;
         display: block;
         box-sizing: border-box;
+    }
+    .headlist .connect-5 {
+        padding: 0;
+        margin-left: 0;
+    }
+    body  .main > .contact {
+        margin-left: 240px;
+    }
+    body .contact-info > ul {
+        margin-left: 101px;
+        flex-direction: column;
+        margin-top: 16px;
     }
 }
 *,*::before,*::after {
