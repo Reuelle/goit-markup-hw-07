@@ -591,7 +591,7 @@ background-position: center;
         body .goal .strategy{
             width: 356px;
             height: 120px;
-            margin-left: 22px;
+            margin-left: 32px;
             margin-top: 96px;
             flex-direction: block;
         }
@@ -607,7 +607,7 @@ background-position: center;
             height: 120px;
             margin-top: 250px;
             flex-direction: block;
-            margin-left: 22px;
+            margin-left: 32px;
             position: absolute;
         }
         body .goal .Technology {
