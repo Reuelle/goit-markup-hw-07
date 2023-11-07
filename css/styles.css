@@ -52,25 +52,8 @@ body {
 
 /* Hide the headlist when the mobile menu is shown */
 .menu.show-mobile-menu ~ body {
-    display: none;
+    display: none !important;
 }
-.mobile-menu-overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: none;
-    z-index: 1000; /* Adjust z-index as needed */
-}
-
-.mobile-menu-overlay.show-overlay {
-    display: block;
-}
-
-
-
         /* Add other styles for displaying the mobile menu */
     /* Hide the headlist when the mobile menu is shown */
 .menu .contact a{
