@@ -587,25 +587,28 @@ background-position: center;
         }
         body .goal {
             position: relative;
+            width: 768px;
+            height: 312px;
+            margin-top: 96px;
         }
         body .goal .strategy{
             width: 356px;
             height: 120px;
             margin-left: 32px;
-            margin-top: 96px;
+            margin-top: 0;
             flex-direction: block;
         }
         body .goal .punctuality {
             width: 356px;
             height: 120px;
-            margin-top: 96px;
+            margin-top: 0;
             margin-left: 34px;
             flex-direction: block;
         }
         body .goal .diligence {
             width: 356px;
             height: 120px;
-            margin-top: 250px;
+            margin-top: 154px;
             flex-direction: block;
             margin-left: 32px;
             position: absolute;
@@ -613,11 +616,148 @@ background-position: center;
         body .goal .Technology {
             width: 356px;
             height: 120px;
-                margin-top: 250px;
+                margin-top: 154px;
                 flex-direction: block;
                 position: absolute;
                 margin-left: 412px;
         }
+        body .image {
+            display: none;
+        }
+        body .team .wa h2 {
+            width: auto;
+            height: 40px;
+            margin-left: 312px;
+            margin-top: 96px;
+            display: block;
+        }
+body .team {
+    margin-top: 96px;
+    width: 768px;
+    height: 1224px;
+    background: var(--CLOUD, #F4F4FD);
+    flex-shrink: 0;
+    position: relative;
+}
+body .team .resto {
+    width: 264px;
+    height: 428px;
+    margin-left: 108px;
+    display: block;
+}
+body .team .spoon {
+    width: 264px;
+    height: 428px;
+    margin-left: 24px;
+    display: block;
+}
+body .team .fork {
+    margin-top: 700px;
+    width: 264px;
+    height: 428px;
+    margin-left: 108px;
+    display: block;
+    position: absolute;
+}
+body .team .plate {
+    margin-top: 700px;
+    width: 264px;
+    height: 428px;
+    margin-left: 396px;
+    display: block;
+    position: absolute;
+}
+  .resto .name {
+        width: 134px;
+        height: 24px;
+        box-sizing: border-box;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .resto .position{
+        width: 128px;
+        height: 24px;
+        margin-left: 68px;
+    }
+    .spoon .name {
+        width: 134px;
+        height: 24px;
+        box-sizing: border-box;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .spoon .position{
+        width: auto;
+        height: 24px;
+        margin-left: 20px;
+    }
+    .fork .name {
+        width: 134px;
+        height: 24px;
+        box-sizing: border-box;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .fork .position{
+        width: 128px;
+        height: 24px;
+        margin-left: 70px;
+    }
+    .plate .name {
+        width: 134px;
+        height: 24px;
+        box-sizing: border-box;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .plate .position{
+        width: 128px;
+        height: 24px;
+        margin-left: 70px;
+    }
+    body .team .icon {
+        margin-left: 19px;
+    }
+body .customer {
+    width: 768px;
+    margin-top: 96px;
+background: #FFF;
+display: flex;
+width: 768px;
+padding-top: 72px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 96px;
+position: relative;
+display: block;
+}
+.customer .customer-text {
+    margin-left: 295px;
+    margin-top: 0;
+    width: 183px;
+    height: 40px;
+    display: block; 
+}
+.customer .customer-icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    margin-top: 96px;
+background: #FFF;
+display: flex;
+width: 768px;
+padding-top: 72px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 96px;
+position: relative;
+display: block;
+}
+
+
+
 
 }
 *,*::before,*::after {
@@ -1367,7 +1507,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
         height: 380px;
         display: flex;
         margin-top: 232px;
-        padding-left: 24px;
+        margin-left: 24px;
         box-sizing: content-box;
         display: inline-flex;
     padding-bottom: 0px;
