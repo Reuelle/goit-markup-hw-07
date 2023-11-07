@@ -539,6 +539,86 @@ body .container-icon .subscribed-button {
         flex-direction: column;
         margin-top: 16px;
     }
+    body .mainpage  {
+        position: relative;
+        width:768px;
+        height: 438px;
+        background: url("../images/Dark-bg7.jpg");
+flex-shrink: 0;
+background-position: center;
+    }
+    body .mainpage h1 {
+        color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+            width: 496px;
+            height: 120px;
+            box-sizing: border-box;
+            margin-top: 112px;
+            padding: 0;
+            margin-left: 136px;
+        }
+        body .mainpage button {
+            width: 169px;
+            height: 56px;
+            box-sizing: border-box;
+            display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 300px;
+        }
+        body .modal {
+            margin-left: 203px;
+            margin-top: 208px;
+        }
+        body .antenna-box, .clock-box, .diagram-box, .astronaut-box {
+            display: none;
+        }
+        body .goal {
+            position: relative;
+        }
+        body .goal .strategy{
+            width: 356px;
+            height: 120px;
+            margin-left: 22px;
+            margin-top: 96px;
+            flex-direction: block;
+        }
+        body .goal .punctuality {
+            width: 356px;
+            height: 120px;
+            margin-top: 96px;
+            margin-left: 34px;
+            flex-direction: block;
+        }
+        body .goal .diligence {
+            width: 356px;
+            height: 120px;
+            margin-top: 250px;
+            flex-direction: block;
+            margin-left: 22px;
+            position: absolute;
+        }
+        body .goal .Technology {
+            width: 356px;
+            height: 120px;
+                margin-top: 250px;
+                flex-direction: block;
+                position: absolute;
+                margin-left: 412px;
+        }
+
 }
 *,*::before,*::after {
     box-sizing: border-box;
