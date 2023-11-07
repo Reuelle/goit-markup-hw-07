@@ -1,5 +1,5 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 428px) {
+@media screen and (min-width: 428px) {
 
     body .headlist {
         width: 150px;
@@ -755,8 +755,6 @@ gap: 96px;
 position: relative;
 display: block;
 }
-
-
 
 
 }
