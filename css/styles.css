@@ -782,6 +782,70 @@ body .customer .customer-icon {
     margin-top: 160px;
     position: absolute;
 }
+body footer {
+    width: 768px;
+    height: 456px;
+    margin-top: 96px;
+    display: flex;
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+}
+body footer .container-footer a {
+    width: 115px;
+    height: auto;
+    margin-left: 108px;
+    margin-top: 0px;
+    display: block;
+    position: absolute;
+}
+ footer .container-icon p {
+    width: 264px;
+    height: 72px;
+    margin-top: 148px;
+    margin-left: 108px;
+    display: block;
+    padding: 0;
+    position: absolute;
+}
+ .container-footer .social {
+    width: 97px;
+    height: 25px;
+    display: inline;
+    margin-top: 0px;
+    margin-left: 406px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.container-footer .subscribe {
+    width: 100px;
+    height: 27px;
+    display: inline;
+    margin-top: 432px;
+    margin-left: 176px;
+    box-sizing: border-box;
+    position: absolute;
+}
+body .container-icon .footer-icon {
+    width: 208px;
+    height: 40px;
+    position: relative;
+    margin-top: 148px;
+    display: flex;
+    box-sizing: content-box;
+    margin-left: 406px;
+    padding: 0;
+}
+body footer .email {
+    width: 398px;
+    height: 40px;
+    margin-top: 472px;
+    margin-left: 15px;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+}
 }
 /* Styles for screens larger than 1158px */
 @media screen and (max-width: 1440px) {
