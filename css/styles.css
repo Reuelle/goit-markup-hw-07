@@ -1,5 +1,5 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 428px) {
 
     body .headlist {
         width: 150px;
@@ -16,15 +16,16 @@
     display: inline-flex;
     cursor: pointer;
     width: 35px;
-    height: 25px;
+    height: 35px;
     box-sizing: border-box;
     margin-top: 25px;
     margin-left: 229px;
+    display: block;
   }
   .container-hamburger .hamburger {
         width: 32px;
         height: 22px;
-    background-image: url("../images/charm_menu-hamburger.svg");
+    background-image: url("./images/charm_menu-hamburger.svg");
     background-repeat: no-repeat;
     cursor: pointer;
     }
@@ -488,10 +489,10 @@ body .container-icon .subscribed-button {
 }
 
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 440px) and (max-width:768px) {
     
     body .headlist {
-        width: 768px;
+        min-width: 768px;
         height: auto;
         display: flex;
     }
@@ -755,9 +756,11 @@ gap: 96px;
 position: relative;
 display: block;
 }
-
-
 }
+/* Styles for screens larger than 1158px */
+@media screen and (max-width: 1440px) {
+    /* Your CSS styles for screens larger than 1158px */
+
 *,*::before,*::after {
     box-sizing: border-box;
 }
@@ -2342,6 +2345,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+}
 }
 
 
