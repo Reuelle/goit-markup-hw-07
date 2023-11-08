@@ -718,13 +718,19 @@ body .team .plate {
     body .team .icon {
         margin-left: 19px;
     }
- .customer {
+ body >.customer {
     margin-top: 96px;
 display: flex;
 width: 768px;
-padding-top: 72px;
+height: 360px;
 position: relative;
-background: #FFF;
+}
+body .customer .customer-icon {
+    height: 248px;
+    width: 552px;
+    margin-left: 110px;
+    display: block;
+    position: absolute;
 }
 .customer .customer-text {
     margin-left: 295px;
@@ -736,8 +742,23 @@ background: #FFF;
 .customer .logo-1 {
     display: block;
     width: 168px;
-    margin-left: 100px;
-    margin-top: 72px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+}
+.customer .logo-2 {
+    display: block;
+    width: 168px;
+    margin-left: 192px;
+    margin-top: 0;
+    position: absolute;
+}
+.customer .logo-3 {
+    display: block;
+    width: 168px;
+    margin-left: 384px;
+    margin-top: 0;
+    position: absolute;
 }
 }
 /* Styles for screens larger than 1158px */
