@@ -731,6 +731,7 @@ body .customer .customer-icon {
     margin-left: 110px;
     display: block;
     position: absolute;
+
 }
 .customer .customer-text {
     margin-left: 295px;
@@ -758,6 +759,27 @@ body .customer .customer-icon {
     width: 168px;
     margin-left: 384px;
     margin-top: 0;
+    position: absolute;
+}
+.customer .logo-4 {
+    display: block;
+    width: 168px;
+    margin-left: 0;
+    margin-top: 160px;
+    position: absolute;
+}
+.customer .logo-5 {
+    display: block;
+    width: 168px;
+    margin-left: 192px;
+    margin-top: 160px;
+    position: absolute;
+}
+.customer .logo-6 {
+    display: block;
+    width: 168px;
+    margin-left: 384px;
+    margin-top: 160px;
     position: absolute;
 }
 }
