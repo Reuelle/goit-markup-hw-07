@@ -5,6 +5,9 @@
         height: auto;
         display: flex;
     }
+    body {
+        margin: 0;
+    }
     body > header {
         height: 70px;
         width: 428px;
@@ -501,6 +504,9 @@ body .container {
         min-width: 768px;
         height: auto;
         display: flex;
+    }
+    body {
+        margin: 0;
     }
     body > header {
         height: 72px;
