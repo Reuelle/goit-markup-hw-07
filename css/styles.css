@@ -2120,12 +2120,13 @@ background: var(--CLOUD, #F4F4FD);
         bottom: 0;
         left: 0;
         right: 100;
-        background-color: blue;
+        background: var(--IRIS, #4D5AE5);
         overflow: hidden;
         width: 360px;
         height: 0;
         transition: .3s ease;
-        opacity: .6;
+        opacity: 100%;
+        cursor: pointer;
       }
       .card1-first:hover .overlay-card1 {
         height: 100%;
@@ -2280,12 +2281,12 @@ box-sizing: border-box;
         bottom: 0;
         left: 0;
         right: 100;
-        background-color: blue;
+        background: var(--IRIS, #4D5AE5);
         overflow: hidden;
         width: 360px;
         height: 0;
         transition: .3s ease;
-        opacity: .6;
+        opacity: 100%;
       }
       .card4taxi:hover .overlay-card4taxi {
         height: 100%;
@@ -2380,12 +2381,12 @@ letter-spacing: 0.32px;
     bottom: 0;
     left: 0;
     right: 100;
-    background-color: blue;
+    background: var(--IRIS, #4D5AE5);
     overflow: hidden;
     width: 360px;
     height: 0;
     transition: .3s ease;
-    opacity: .6;
+    opacity: 100%;
   }
   .card5face:hover .overlay-card5face {
     height: 100%;
