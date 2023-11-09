@@ -871,6 +871,7 @@ gap: 25px;
 body {
 width: 1440px;
 background: #FFF;
+margin: 0;
 }
 
 header {
