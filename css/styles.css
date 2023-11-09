@@ -495,7 +495,7 @@ body .container {
 }
 
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (min-width: 440px) and (max-width:768px) {
+@media screen and (min-width: 430px) and (max-width:768px) {
     
     body .headlist {
         min-width: 768px;
