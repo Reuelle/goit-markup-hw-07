@@ -1943,7 +1943,7 @@ width: 21px;
 height: 24px;
 margin-left: 24px;
 margin-bottom: 19px;
-        color: var(--WHITE, #FFF);
+color: var(--IRIS, #4D5AE5);
         text-align: center;
         /* Button Text */
         font-family: Roboto;
@@ -1956,7 +1956,10 @@ margin-bottom: 19px;
     }
     
     .box-first:hover {
-        background: var(--OCEAN, #404BBF);
+        background-color: var(--OCEAN, #404BBF);
+    }
+    .box-first > p:hover {
+        color: var(--WHITE, #FFF);
     }
     .box-second {
         margin-left: 24px;
