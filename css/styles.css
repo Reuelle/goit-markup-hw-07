@@ -1031,6 +1031,48 @@ opacity: 0.8;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 gap: 25px;
 }
+body .container {
+    width: 586px;
+    height: 48px;
+    display: inline-flex;
+gap: 24px;
+margin-left: 91px;
+margin-top: 64px;
+padding: 0;
+}
+ body .box-first {
+    width: 69px;
+    height: 48px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-right: 400px;
+    display: block;
+
+}
+body .box-second {
+    width: 116px;
+    height: 48px;
+    margin-left: 93px;
+    position: absolute;
+}
+body .box-third {
+    width: 126px;
+    height: 48px;
+    margin-left: 233px;
+    position: absolute;
+}
+body .box-fourth {
+    width: 78px;
+    height: 48px;
+    margin-left: 359px;
+    position: absolute;
+}
+body .box-fifth {
+    width: 78px;
+    height: 48px;
+    margin-left: 460px;
+    position: absolute;
+}
 }
 /* Styles for screens larger than 1158px */
 @media screen and (max-width: 2200px) {
