@@ -1040,17 +1040,17 @@ margin-left: 91px;
 margin-top: 64px;
 padding: 0;
 }
- body .box-first {
-    width: 69px;
-    height: 48px;
+  body .box-first {
+    width: 72px;
+    height: 50px;
     box-sizing: border-box;
-    position: absolute;
-    margin-right: 400px;
+    position: static;
+    margin-right: 500px;
     display: block;
 
 }
 body .box-second {
-    width: 116px;
+    width: 125px;
     height: 48px;
     margin-left: 93px;
     position: absolute;
@@ -1064,13 +1064,13 @@ body .box-third {
 body .box-fourth {
     width: 78px;
     height: 48px;
-    margin-left: 359px;
+    margin-left: 371px;
     position: absolute;
 }
 body .box-fifth {
-    width: 78px;
+    width: 126px;
     height: 48px;
-    margin-left: 460px;
+    margin-left: 472px;
     position: absolute;
 }
 }
