@@ -235,12 +235,12 @@ justify-content: center;
         display: none;
     }
     body .goal .strategy{
-        margin-left: 18px;
-        margin-top: 248px;
+        margin-left: 16px;
+        margin-top: 96px;
         flex-direction: block;
     }
     body .goal .punctuality {
-        margin-top: 32px;
+        margin-top: 2px;
         flex-direction: block;
     }
     body .goal .diligence {
@@ -253,17 +253,37 @@ justify-content: center;
     }
     body .goal p {
         width: 396px;
-        height: auto;
+        height: 40px;
         margin-left: 12px;
-        margin-top: 8px;
+        margin-top: 0px;
         display: block;
+        color: var(--SLATE, #434455);
+align-self: stretch;
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
     }
     body .goal h3 {
         width: 396px;
-        height: auto;
+        height: 40px;
         margin-left: 0;
         text-align: center;
         margin-left: 16px;
+        color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+align-self: stretch;
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
     }
     body .image {
         display: none;
@@ -548,7 +568,7 @@ body .container {
         margin-left: 240px;
     }
     body .contact-info > ul {
-        margin-left: 101px;
+        margin-left: 90px;
         flex-direction: column;
         margin-top: 16px;
     }
@@ -604,35 +624,57 @@ background-position: center;
             height: 312px;
             margin-top: 96px;
         }
-        body .goal .strategy{
+        body .goal h3 {
             width: 356px;
             height: 120px;
-            margin-left: 32px;
-            margin-top: 0;
-            flex-direction: block;
+            display: block;
+            color: var(--NAVY-BLUE, #2E2F42);
+
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+position: absolute;
+margin-top: 0;
         }
-        body .goal .punctuality {
+        body .goal p {
             width: 356px;
-            height: 120px;
-            margin-top: 0;
-            margin-left: 34px;
-            flex-direction: block;
+            height: 40px;
+            display: block;
+            color: var(--SLATE, #434455);
+
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+position: absolute;
+margin-top: 48px;
         }
-        body .goal .diligence {
-            width: 356px;
-            height: 120px;
-            margin-top: 154px;
-            flex-direction: block;
-            margin-left: 32px;
+          .goal .strategy{
+            margin-left: 16px;
+            margin-top: 0;
             position: absolute;
         }
-        body .goal .Technology {
-            width: 356px;
-            height: 120px;
+         .goal .punctuality {
+            margin-top: 0;
+            margin-left: 380px;
+        }
+        .goal .diligence {
+            margin-top: 154px;
+            margin-left: 16px;
+            position: absolute;
+        }
+        .goal .Technology {
                 margin-top: 154px;
-                flex-direction: block;
                 position: absolute;
-                margin-left: 412px;
+                margin-left: 380px;
         }
         body .image {
             display: none;
