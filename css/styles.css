@@ -1075,7 +1075,7 @@ body .box-fifth {
 }
 }
 /* Styles for screens larger than 1158px */
-@media screen and (max-width: 2200px) {
+@media screen and (max-width: 1450px) {
     /* Your CSS styles for screens larger than 1158px */
 
 *,*::before,*::after {
@@ -2330,10 +2330,14 @@ background: var(--CLOUD, #F4F4FD);
     .card1-first ,.card2-first ,.card3-first {
         position: relative;
         width: 360px;
+        height: 450px;
+        border: 1px solid var(--CLOUD, #F4F4FD);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
     }
     .overlay-card1 ,.overlay-card2 ,.overlay-card3 {
         position: absolute;
-        bottom: 0;
+        bottom: 148px;
         left: 0;
         right: 100;
         background: var(--IRIS, #4D5AE5);
@@ -2345,13 +2349,13 @@ background: var(--CLOUD, #F4F4FD);
         cursor: pointer;
       }
       .card1-first:hover .overlay-card1 {
-        height: 100%;
+        height: 67.3%;
       }
       .card2-first:hover .overlay-card2 {
-        height: 100%;
+        height: 67.3%;
       }
       .card3-first:hover .overlay-card3 {
-        height: 100%;
+        height: 67.3%;
       }
       .text-card1 , .text-card2 ,.text-card3  {
         color: var(--CLOUD, #F4F4FD);
@@ -2491,10 +2495,13 @@ box-sizing: border-box;
     .card4taxi ,.card4phone ,.card4smile {
         position: relative;
         width: 360px;
+        height: 450px;
+        border: 1px solid var(--CLOUD, #F4F4FD);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
     .overlay-card4taxi ,.overlay-card4phone ,.overlay-card4smile{
         position: absolute;
-        bottom: 0;
+        bottom: 148px;
         left: 0;
         right: 100;
         background: var(--IRIS, #4D5AE5);
@@ -2505,13 +2512,13 @@ box-sizing: border-box;
         opacity: 100%;
       }
       .card4taxi:hover .overlay-card4taxi {
-        height: 100%;
+        height: 67.3%;
       }
       .card4phone:hover .overlay-card4phone {
-        height: 100%;
+        height: 67.3%;
       }
       .card4smile:hover .overlay-card4smile {
-        height: 100%;
+        height: 67.3%;
       }
       .text-card4taxi ,.text-card4phone ,.text-card4smile {
         color: var(--CLOUD, #F4F4FD);
@@ -2531,6 +2538,7 @@ box-sizing: border-box;
     height: 300px;
     display: flex;
     gap: 24px;
+    
 }
 .card-container2 {
     display: flex;
@@ -2591,10 +2599,13 @@ letter-spacing: 0.32px;
 .card5face ,.card5fruit ,.card5coffee {
     position: relative;
     width: 360px;
+    height: 450px;
+    border: 1px solid var(--CLOUD, #F4F4FD);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .overlay-card5face ,.overlay-card5fruit ,.overlay-card5coffee {
     position: absolute;
-    bottom: 0;
+    bottom: 148px;
     left: 0;
     right: 100;
     background: var(--IRIS, #4D5AE5);
@@ -2605,13 +2616,13 @@ letter-spacing: 0.32px;
     opacity: 100%;
   }
   .card5face:hover .overlay-card5face {
-    height: 100%;
+    height: 67.3%;
   }
   .card5fruit:hover .overlay-card5fruit {
-    height: 100%;
+    height: 67.3%;
   }
   .card5coffee:hover .overlay-card5coffee {
-    height: 100%;
+    height: 67.3%;
   }
   .text-card5face ,.text-card5fruit ,.text-card5coffee {
     color: var(--CLOUD, #F4F4FD);
