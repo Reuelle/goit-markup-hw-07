@@ -254,7 +254,7 @@ justify-content: center;
     body .goal p {
         width: 396px;
         height: 40px;
-        margin-left: 12px;
+        margin-left: 16px;
         margin-top: 0px;
         display: block;
         color: var(--SLATE, #434455);
