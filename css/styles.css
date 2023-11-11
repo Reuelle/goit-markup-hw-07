@@ -1,13 +1,13 @@
 /* On screens that are 428px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 428px) {
     body .headlist {
-        width: 150px;
+       max-width: 150px;
         height: auto;
         display: flex;
     }
     body > header {
         height: 70px;
-        width: 428px;
+        max-width: 428px;
         padding: 0;
         display: flex;
     }
@@ -17,7 +17,7 @@
     }
   body .container-hamburger {
     cursor: pointer;
-    width: 35px;
+    max-width: 35px;
     height: 35px;
     box-sizing: border-box;
     margin-top: 23px;
@@ -41,7 +41,7 @@
       .menu.show-mobile-menu {
         display: block;
         position: relative;
-        width: 428px;
+        max-width: 428px;
         height: 998px;
         flex-shrink: 0;
         background: var(--WHITE, #FFF);
@@ -100,19 +100,19 @@ text-decoration: none;
 }
 .menu .connect-1 {
     margin-top: 80px;
-    width: 110px;
+    max-width: 110px;
     height: 40px;
     display: block;
 }
 .menu .connect-2 {
     margin-top: 40px;
-    width: 150px;
+    max-width: 150px;
     height: 40px;
     display: block;
 }
 .menu .connect-3 {
     margin-top: 40px;
-    width: 152px;
+    max-width: 152px;
     height: 40px;
     display: block;
 }
@@ -123,7 +123,7 @@ text-decoration: none;
     margin-left: 40px;
 }
 .menu .connect-4{
-    width: 355px;
+    max-width: 355px;
     height: 40px;
     margin-top: 84px;
     color: var(--IRIS, #4D5AE5);
@@ -141,7 +141,7 @@ margin-left: 35px;
 }
 .menu .connect-5{
     margin-top: 40px;
-    width: 355px;
+    max-width: 355px;
     height: 40px;
     display: block;
 }
@@ -157,7 +157,7 @@ margin-left: 35px;
     cursor: pointer;
 }
     .close-button {
-        width: 24px;
+        max-width: 24px;
         height: 24px;
         box-sizing: content-box;
         fill: var(--CORNFLOWER, #E7E9FC);
@@ -169,7 +169,7 @@ margin-left: 35px;
     border: none;
     }
     .mobile-close {
-        width: 8px;
+        max-width: 8px;
         color: #2E2F42;
         flex-shrink: 0;
         margin-bottom: 3px;
@@ -180,7 +180,7 @@ margin-left: 35px;
     }
     body .mainpage  {
         position: relative;
-        width:428px;
+        max-width:428px;
         height: 432px;
         background: url("../images/Dark-bg7.jpg");
 flex-shrink: 0;
@@ -197,7 +197,7 @@ font-weight: 700;
 line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
-        width: 320px;
+        max-width: 320px;
         height: 80px;
         box-sizing: border-box;
         margin-left: 10px;
@@ -206,7 +206,7 @@ text-transform: capitalize;
         margin-left: 44px;
     }
      body .mainpage button {
-        width: 169px;
+        max-width: 169px;
         height: 56px;
         box-sizing: border-box;
         display: inline-flex;
@@ -223,7 +223,7 @@ margin-left: 139px;
         margin-top: 96px;
     }
     body .goal {
-width: 396px;
+max-width: 396px;
 height: 626px;
 flex-direction: column;
 align-items: center;
@@ -252,7 +252,7 @@ justify-content: center;
             flex-direction: block;
     }
     body .goal p {
-        width: 396px;
+        max-width: 396px;
         height: 40px;
         margin-left: 16px;
         margin-top: 0px;
@@ -268,7 +268,7 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
     }
     body .goal h3 {
-        width: 396px;
+        max-width: 396px;
         height: 40px;
         margin-left: 0;
         text-align: center;
@@ -296,7 +296,7 @@ text-transform: capitalize;
      body .team {
         flex-direction: column;
         margin-top: 96px;
-        width: 428px;
+        max-width: 428px;
         height: 2235px;
         padding: 0;
 background: var(--CLOUD, #F4F4FD);
@@ -306,7 +306,7 @@ display: block;
 overflow: hidden;
     }
     body .team .resto {
-        width: 264px;
+        max-width: 264px;
         height: 428px;
         margin-left: 82px;
         display: block;
@@ -325,20 +325,20 @@ overflow: hidden;
         padding: 0;
     }
     .resto .position{
-        width: 128px;
+        max-width: 128px;
         height: 24px;
         margin-left: 68px;
         margin-top: 8px;
     }
     .team .icon {
-        width: 232px;
+        max-width: 232px;
         height: 40px;
         margin-top: 8px;
         margin-left: 16px;
     }
     body .team .spoon {
         margin-top: 72px;
-        width: 264px;
+        max-width: 264px;
         height: 428px;
         margin-left: 82px;
         display: block;
@@ -352,7 +352,7 @@ overflow: hidden;
     }
     body .team .fork {
         margin-top: 72px;
-        width: 264px;
+        max-width: 264px;
         height: 428px;
         margin-left: 82px;
         display: block;
@@ -362,7 +362,7 @@ overflow: hidden;
     }
     body .team .plate {
         margin-top: 72px;
-        width: 264px;
+        max-width: 264px;
         height: 428px;
         margin-left: 82px;
         display: block;
@@ -372,7 +372,7 @@ overflow: hidden;
         margin-left: 40px;
     }
 body .customer {
-        width: 396px;
+        max-width: 396px;
         height: 668px;
         background: #FFF;
         padding-left: 16px;
@@ -381,14 +381,14 @@ body .customer {
         flex-direction: column;
     }
    body .customer .customer-icon {
-        width: 396px;
+        max-width: 396px;
         height: 460px;
         display: inline-flex;
         flex-wrap: wrap;
         margin-left: 0;
     }
     .customer .customer-text {
-        width: 197.469px;
+        max-width: 197.469px;
         height: 40px;
         margin-top: 96px;
         margin-left: 99px;
