@@ -509,7 +509,7 @@ body .container-icon .subscribed-button {
 body .container {
     margin-top: 48px;
     margin-left: 16px;
-    maxwidth: 263px;
+    max-width: 263px;
     height: 96px;
     position: relative;
     display: flex;
