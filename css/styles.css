@@ -491,10 +491,10 @@ body .container-icon .footer-icon {
     padding: 0;
 }
 body footer .email {
-    max-width: 398px;
+    width: 398px;
     height: 40px;
     margin-top: 472px;
-    margin-left: 85px;
+    margin-left: 15px;
     position: absolute;
     display: block;
     box-sizing: border-box;
@@ -502,14 +502,14 @@ body footer .email {
 }
 body .container-icon .subscribed-button {
     margin-top: 24px;
-    margin-left: 0px;
+    margin-left: 8px;
     padding: 0;
     display: block;
 }
 body .container {
     margin-top: 48px;
     margin-left: 16px;
-    width: 263px;
+    maxwidth: 263px;
     height: 96px;
     position: relative;
     display: flex;
