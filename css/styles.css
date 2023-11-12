@@ -2152,7 +2152,6 @@ body .container .box-first {
     box-sizing: border-box;
     max-width: 21px;
     height: 24px;
-    color: var(--WHITE, #FFF);
 text-align: center;
 padding: 0;
 /* Button Text */
@@ -2176,7 +2175,6 @@ body .container .box-second {
     box-sizing: border-box;
     max-width: 69px;
     height: 25px;
-    color: var(--WHITE, #FFF);
 text-align: center;
 padding: 0;
 /* Button Text */
@@ -2201,7 +2199,6 @@ body .container .box-third {
     box-sizing: border-box;
     max-width: 31px;
     height: 25px;
-    color: var(--WHITE, #FFF);
 text-align: center;
 padding: 0;
 /* Button Text */
@@ -2227,7 +2224,6 @@ body .container .box-fourth {
     box-sizing: border-box;
     max-width: 69px;
     height: 25px;
-    color: var(--WHITE, #FFF);
 text-align: center;
 padding: 0;
 /* Button Text */
@@ -2253,7 +2249,6 @@ body .container .box-fifth {
     box-sizing: border-box;
     max-width: 78px;
     height: 25px;
-    color: var(--WHITE, #FFF);
 text-align: center;
 padding: 0;
 /* Button Text */
