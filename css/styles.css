@@ -1075,7 +1075,7 @@ body .box-fifth {
 }
 }
 /* Styles for screens larger than 1158px */
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1440px) {
     /* Your CSS styles for screens larger than 1158px */
 
 *,*::before,*::after {
@@ -1084,11 +1084,14 @@ body .box-fifth {
     body, html {
         height: 100%;
         margin: 0 auto;
+        padding: 0;
 }
 body {
 max-width: 1440px;
 background: #FFF;
-margin: 0;
+margin: 0 auto;
+padding: 0;
+justify-content: center;
 }
 
 header {
@@ -1511,7 +1514,7 @@ border: none;
 .mainpage {
 background-color: url("../Dark-bg.jpg");
 background: url("../people-office 1(2).jpg"), no-repeat;
-width: 1440px;
+max-width: 1440px;
 height: 600px;
 flex-shrink: 0;
 align-items: center;
@@ -1528,7 +1531,7 @@ position: relative;
 }
 
 h1 {
-    width: 496px;
+    max-width: 496px;
     color: var(--WHITE, #FFF);
 text-align: center;
 /* Header 1 */
@@ -1542,6 +1545,7 @@ letter-spacing: 1.12px;
 div > h1 {
     margin-left: 472px;
     padding-top: 188px;
+    margin-left: calc(min(472px, 35%));
 }
 div > button {
     color: var(--WHITE, #FFF);
@@ -1561,13 +1565,14 @@ border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 margin-left: 636px;
+margin-left: calc(min(636px, 55%));
 margin-top: 48px;
 border: none;
 cursor: pointer;
 }
 .goal {
 display: flex;
-width: 1440px;
+max-width: 1440px;
 height: 230px;
 background: #FFF;
 padding-bottom: 120px;
