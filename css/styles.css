@@ -432,7 +432,7 @@ header {
     .mainpage {
     background-color: url("../Dark-bg.jpg");
     background: url("../people-office 1(2).jpg"), no-repeat;
-    max-width: 1440px;
+    width: 1440px;
     height: 600px;
     flex-shrink: 0;
     align-items: center;
