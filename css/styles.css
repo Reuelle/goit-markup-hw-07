@@ -157,7 +157,7 @@ margin-left: 35px;
     cursor: pointer;
 }
     .close-button {
-        max-width: 24px;
+        width: 24px;
         height: 24px;
         box-sizing: content-box;
         fill: var(--CORNFLOWER, #E7E9FC);
@@ -252,7 +252,7 @@ justify-content: center;
             flex-direction: block;
     }
     body .goal p {
-        max-width: 396px;
+        width: 396px;
         height: 40px;
         margin-left: 16px;
         margin-top: 0px;
@@ -268,8 +268,8 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
     }
     body .goal h3 {
-        max-width: 396px;
-        height: 40px;
+        width: 396px;
+        height: 49px;
         margin-left: 0;
         text-align: center;
         margin-left: 16px;
@@ -647,6 +647,7 @@ margin-left: 8px;
     
     body .headlist {
         min-width: 768px;
+        width: 100%;
         height: auto;
         display: flex;
     }
@@ -751,8 +752,8 @@ background-position: center;
             margin-top: 96px;
         }
         body .goal h3 {
-            max-width: 356px;
-            height: 120px;
+            width: 356px;
+            height: 40px;
             display: block;
             color: var(--NAVY-BLUE, #2E2F42);
 
@@ -768,11 +769,11 @@ position: absolute;
 margin-top: 0;
         }
         body .goal p {
-            max-width: 356px;
-            height: 40px;
+            width: 360px;
+            height: 72px;
             display: block;
             color: var(--SLATE, #434455);
-
+align-self: stretch;
 /* Body Medium */
 font-family: Roboto;
 font-size: 16px;
@@ -1074,6 +1075,7 @@ body .box-fifth {
     position: absolute;
 }
 }
+
 /* Styles for screens larger than 1158px */
 @media screen and (max-width: 1950px) {
     /* Your CSS styles for screens larger than 1158px */
@@ -1089,7 +1091,6 @@ body .box-fifth {
 body {
 max-width: 1440px;
 background: #FFF;
-margin: 0 auto;
 padding: 0;
 justify-content: center;
 }
