@@ -1075,7 +1075,7 @@ body .box-fifth {
 }
 }
 /* Styles for screens larger than 1158px */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1950px) {
     /* Your CSS styles for screens larger than 1158px */
 
 *,*::before,*::after {
