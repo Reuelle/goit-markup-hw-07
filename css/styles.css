@@ -2720,7 +2720,7 @@ width: 100%;
 }
 
 header {
-width: 1440px;
+max-width: 1440px;
 height: 72px;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
